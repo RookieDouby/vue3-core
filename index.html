@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+      .btn-group button.current {
+        background: orange;
+        color: #FFF;
+      }
+    </style>
+</head>
+<body>
+  <div class="calculator">
+    <p class="result">0</p>
+    <div class="input-group">
+      <input type="text" value="0" class="f-input" />
+      <input type="text" value="0" class="s-input" />
+    </div>
+    <div class="btn-group">
+      <button data-field="plus" class="current">+</button>
+      <button data-field="minus">-</button>
+      <button data-field="multiple">x</button>
+      <button data-field="div">/</button>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
