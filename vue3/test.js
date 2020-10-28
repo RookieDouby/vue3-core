@@ -20,8 +20,6 @@ function deepClone(org, tar) {
       } else {
         tar[key] = org[key]
       }
-    } else {
-      tar[key] = org[key]
     }
   }
 
